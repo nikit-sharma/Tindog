@@ -1,0 +1,179 @@
+#title
+{
+    background-color: #ff4c68;
+    text-align :left;
+}
+body{
+    font-family: 'Montserrat-Black';
+}
+h1
+{
+    font-family: 'Montserrat-Black';
+    font-size: 60px;
+    line-height: 1.5;
+    color:white;
+    text-align:left;
+
+}
+.container-fluid
+{
+    
+    padding: 3% 15% 7%;
+}
+
+/* Navigation bar Styling________________________________________________________*/
+.navbar-brand
+{
+    font-family:'ubuntu';
+    font-size:40px;
+    font-weight:bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-link
+{
+    font-family: 'Montserrat-Black';
+    font-size: 19px;
+}
+.nav-item
+{
+    padding:0 18px 
+}
+.dwnbtn
+{
+margin:5% 3% 5% 0%;
+}
+
+/* image sytling____________________________________________*/
+.imgtag
+{
+    width: 60%;
+    transform: rotate(25deg);
+    right:30%;
+    position: absolute;
+}
+
+/*Feature icon styling________________________________________________*/
+.featureicon
+{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    font-size: 60px;
+}
+
+.featureicon:hover{
+    color: #ff4c68;
+}
+
+/* Feature styling__________________________________________________________*/
+#features
+{
+    padding:7% 15%;
+    text-align:center; 
+    background-color: white;
+    position: relative;  
+}
+#features p{
+    color:#8f8f8f;
+    font-size: 20px;
+}
+.feature-box{
+    padding: 4.5%;
+    text-align:center;
+}
+/*testimonal styling________________________________________________*/
+#testimonials
+{
+    background-color: #ef8172;
+    text-align: center;
+}
+.testimg
+{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+.testtxt
+{
+    color:white;
+   font-size: 45px;
+   line-height: 1.5;
+   font-weight: 25%;
+} 
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*press styling_________________________________________________________*/
+#press
+{
+    background-color: #ef8172;
+    padding-bottom:3%;
+    text-align:center;
+}
+.pressimg
+{
+    width:15%;
+    margin:20px 20px 50px;
+}
+#pricing
+{
+    text-align: center;
+    padding:100px;
+}
+#pricing h2
+{
+    font-size:50px;
+    
+}
+#pricing p{
+    color:#8f8f8f;
+    font-size: 20px;
+}
+.price-col{
+
+    padding:3% 2%;
+}
+/*call to action styling________________________________________*/
+#cta
+{
+    background-color:#ff4c68;
+    text-align: center;
+    color:white;
+    padding: 3% 3% 1%; 
+}
+#cta h3{
+    font-size:53px;
+}
+.ctabtn2{
+    background-color: #DDDDDD;
+}
+
+.ctabtn
+{
+margin:5% 3% 5% 0%;
+}
+/*footer________________________________________________________*/
+.ficon {
+    padding:5% 1% 2% ;
+}
+#footer p{
+    color:#8f8f8f;
+    font-size:20px
+}
+#footer
+{
+    text-align:center;
+}
+@media(max-width:1032px){
+    .imgtag{
+        position:static;
+        transform: rotate(0);
+    }
+    #title
+    {
+        text-align: center;
+    }
+ }
